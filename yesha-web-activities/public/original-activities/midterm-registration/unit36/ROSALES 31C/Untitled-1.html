@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body style = "background-color: pink;" >
+
+    <center> 
+        <header><h1><b> STUDENT REGISTRATION </b> </h1></header>
+        <header>Welcome to Student Registration Page </header>
+        <br>
+        <nav> 
+
+            <a href = "Home.html"  >  
+                Home   | 
+            </a>
+
+            <a href = "About.html" >  
+                About  |
+            </a>
+    
+            <a href = "Contact.html" >  
+                Contact
+             </a>
+
+        </nav>
+
+        <hr>
+        <br>
+
+
+    </center>
+
+    <main>
+            <article><b>STUDENT REGISTRATION FORM </b> </article>
+            <br>
+
+    <form >
+
+            Full Name:
+            <br>
+            <input type="text" name="Full_Name" />
+            <br><br>
+
+            Password:  
+            <br>
+            <input type="text" name="Password" />
+            <br><br>
+
+            Email:  
+            <br>
+            <input type="text" name="Email" />
+            <br><br>
+
+            Age:  
+            <br>
+            <input type="text" name="Age" />
+            <br><br>
+
+            Gender:
+            <br>
+            <input type="radio" name="Gender" value="Male"> Male
+            <input type="radio" name="Gender" value="Female"> Female  
+            <br><br>
+
+            Year Level:
+            <br>
+            <select name="dropdown">
+            <option value="" disabled selected >Choose</option>
+            <option value="IT" >1st Year</option>
+            <option value="CS">2nd Year</option>
+            <option value="TM">3rd Year</option>
+            <option value="HM">4th Year</option>
+            </select><br><br>
+
+            Programing Skills:
+            <br><br>
+            <input type="checkbox" name="skills" value="on"> HTML
+            <input type="checkbox" name="skills" value="on"> CSS
+            <input type="checkbox" name="skills" value="on"> JavaScript <br>
+            <input type="checkbox" name="skills" value="on"> Phyton
+            <input type="checkbox" name="skills" value="on"> C++
+            <input type="checkbox" name="skills" value="on"> C# 
+            <br><br><br><br>
+
+            Tell us about yourself: : <br />
+            <textarea rows="5" cols="50" name="description" placeholder= "Enter Description here....."></textarea>
+            <br> <br>
+
+            Upload Profile Picture: 
+            <br>
+            <input type="file" name="fileupload" accept="image/*" />
+            <br> <br>
+
+            <input type="submit" name="submit" value="Submit" />
+            <input type="reset" name="reset"  value="Reset" />
+            <input type="button" name="ok" value="OK"  />
+
+    </form>
+
+    </main>
+
+</body>
+</html>

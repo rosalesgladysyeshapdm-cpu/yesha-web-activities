@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="website.css">
+</head>
+<body>
+        <header><h1><b>My Personal Webiste</b> </h1></header>
+        <header>Welcome to Student Registration Page </header>
+        <br>
+        <nav> 
+
+            <a href = "Home.html"  >  
+                Home 
+            </a>
+
+            <a href = "Registration.html" >  
+                Registration
+            </a>
+    
+            <a href = "Grade.html" >  
+                Grade
+             </a>
+
+             <a href = "Profile.html" >  
+                Profile
+             </a>
+
+        </nav>
+
+    <main>
+            <div class="container"
+            <div class= "form-box">
+               <h2> Student Registration Form </h2>
+
+            <form>
+            <label>Student Name</label>
+            <div class="Student Name"></div>
+            <input type="text" name="Student_Name" />
+
+
+            <label>Email</label>
+            <div class="Email"></div>
+            <input type="text" name="Email" />
+
+
+            <label>Password</label>
+            <div class="password"></div> 
+            <input type="text" name="Password" />
+
+
+            <label>Gender:</label>
+            <div class="gender"></div>
+            <input type="radio" name="Gender" value="Male"> Male
+            <input type="radio" name="Gender" value="Female"> Female  
+            </div>
+
+
+            <label> Programing Skills:</label>
+            <div class="skills">
+            <input type="checkbox" name="skills" value="on"> HTML
+            <input type="checkbox" name="skills" value="on"> CSS
+            <input type="checkbox" name="skills" value="on"> JavaScript <br>
+            <input type="checkbox" name="skills" value="on"> Phyton
+            <input type="checkbox" name="skills" value="on"> C++
+            <input type="checkbox" name="skills" value="on"> C# 
+            </div>
+
+            
+            <label> Address :</label> <br />
+            <div class = "Address"> 
+            <textarea rows="5" cols="50" name="description" placeholder= "Enter Description here....."></textarea>
+            </div>
+
+            Upload Profile Picture: 
+            <input type="file" name="fileupload" accept="image/*" />
+            <input type="submit" name="submit" value="Submit" />
+            <input type="reset" name="reset"  value="Reset" />
+            <input type="button" name="ok" value="OK"  />
+
+    </form>
+
+    </main>
+</body>
+</html>
